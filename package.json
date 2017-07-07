@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A set of internal tools we use to manage repos.",
   "main": "convert-repo.js",
+  "bin": {
+    "convert-repository" : "./bin/convert-repository"
+  },
   "dependencies": {
     "jscodeshift": "^0.3.32",
     "shelljs": "^0.7.8"
