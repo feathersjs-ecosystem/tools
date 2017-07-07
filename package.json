@@ -1,0 +1,24 @@
+{
+  "name": "feathers-tools",
+  "version": "0.0.1",
+  "description": "A set of internal tools we use to manage repos.",
+  "main": "convert-repo.js",
+  "dependencies": {
+    "jscodeshift": "^0.3.32",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feathersjs/feathers-tools.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feathersjs/feathers-tools/issues"
+  },
+  "homepage": "https://github.com/feathersjs/feathers-tools#readme"
+}
