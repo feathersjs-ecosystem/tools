@@ -15,7 +15,7 @@ Object.keys(devDependencies).forEach(dependency => {
   }
 });
 
-if(semistandard.ignore) {
+if(semistandard && semistandard.ignore) {
   delete semistandard.ignore;
 }
 
