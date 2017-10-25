@@ -1,27 +1,63 @@
 {
-  "name": "feathers-tools",
-  "version": "0.0.1",
-  "description": "A set of internal tools we use to manage repos.",
-  "main": "convert-repo.js",
+  "name": "@feathersjs/tools",
+  "description": "Codemods and other generator and repository  management tools",
+  "version": "0.0.0",
+  "homepage": "https://github.com/feathersjs/tools",
+  "main": "lib/",
+  "keywords": [
+    "feathers",
+    "tooling"
+  ],
   "bin": {
     "convert-repository": "./bin/convert-repository"
   },
-  "dependencies": {
-    "jscodeshift": "^0.3.32",
-    "shelljs": "^0.7.8"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feathersjs/feathers-tools.git"
+    "url": "git://github.com/feathersjs/tools.git"
   },
-  "author": "",
-  "license": "MIT",
+  "author": {
+    "name": "Feathers contributors",
+    "email": "hello@feathersjs.com",
+    "url": "https://feathersjs.com"
+  },
+  "contributors": [],
   "bugs": {
-    "url": "https://github.com/feathersjs/feathers-tools/issues"
+    "url": "https://github.com/feathersjs/tools/issues"
   },
-  "homepage": "https://github.com/feathersjs/feathers-tools#readme"
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "release:pre": "npm version prerelease && npm publish --tag pre",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
+    "lint": "semistandard lib/*.js lib/**/*.js test/*.js test/**/*.js --fix",
+    "mocha": "mocha --opts mocha.opts",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --opts mocha.opts",
+    "test": "npm run lint && npm run coverage"
+  },
+  "semistandard": {
+    "sourceType": "module",
+    "env": [
+      "mocha"
+    ]
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "jscodeshift": "^0.3.32",
+    "npm-programmatic": "0.0.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^4.0.1",
+    "semistandard": "^11.0.0"
+  }
 }
