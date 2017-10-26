@@ -3,7 +3,6 @@ const plugin = require('../lib');
 
 describe('@feathersjs/tools', () => {
   it('basic functionality', () => {
-    expect(typeof plugin).to.equal('function', 'It worked');
-    expect(plugin()).to.equal('@feathersjs/tools');
+    expect(typeof plugin).to.equal('object', 'It worked');
   });
 });
