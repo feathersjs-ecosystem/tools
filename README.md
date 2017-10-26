@@ -1,6 +1,6 @@
 # @feathersjs/tools
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/feathers-tools.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/tools.svg)](https://greenkeeper.io/)
 
 [![Build Status](https://travis-ci.org/feathersjs/tools.png?branch=master)](https://travis-ci.org/feathersjs/tools)
 [![Code Climate](https://codeclimate.com/github/feathersjs/tools/badges/gpa.svg)](https://codeclimate.com/github/feathersjs/tools)
