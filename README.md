@@ -3,8 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/tools.svg)](https://greenkeeper.io/)
 
 [![Build Status](https://travis-ci.org/feathersjs/tools.png?branch=master)](https://travis-ci.org/feathersjs/tools)
-[![Code Climate](https://codeclimate.com/github/feathersjs/tools/badges/gpa.svg)](https://codeclimate.com/github/feathersjs/tools)
-[![Test Coverage](https://codeclimate.com/github/feathersjs/tools/badges/coverage.svg)](https://codeclimate.com/github/feathersjs/tools/coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/dcdc3acce49350a829d4/test_coverage)](https://codeclimate.com/github/feathersjs/tools/test_coverage)
 [![Dependency Status](https://img.shields.io/david/feathersjs/tools.svg?style=flat-square)](https://david-dm.org/feathersjs/tools)
 [![Download Status](https://img.shields.io/npm/dm/@feathersjs/tools.svg?style=flat-square)](https://www.npmjs.com/package/@feathersjs/tools)
 
