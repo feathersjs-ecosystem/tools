@@ -15,37 +15,14 @@
 npm install @feathersjs/tools --save
 ```
 
-## Documentation
+## Local exports
 
-Please refer to the [@feathersjs/tools documentation](http://docs.feathersjs.com/) for more details.
+- `upgrade` contains the functionality to update a current Feathers application or plugin to version 3 (including rewriting all module `require`s to use the `@feathersjs` namespace)
+- `transform` contains [JSCodeshift](https://github.com/facebook/jscodeshift/) utilities used mainly by the generator.
 
-## Complete Example
+## Global tools
 
-Here's an example of a Feathers server that uses `@feathersjs/tools`. 
-
-```js
-const feathers = require('feathers');
-const rest = require('feathers-rest');
-const hooks = require('feathers-hooks');
-const bodyParser = require('body-parser');
-const errorHandler = require('feathers-errors/handler');
-const plugin = require('@feathersjs/tools');
-
-// Initialize the application
-const app = feathers()
-  .configure(rest())
-  .configure(hooks())
-  // Needed for parsing bodies (login)
-  .use(bodyParser.json())
-  .use(bodyParser.urlencoded({ extended: true }))
-  // Initialize your feathers plugin
-  .use('/plugin', plugin())
-  .use(errorHandler());
-
-app.listen(3030);
-
-console.log('Feathers app started on 127.0.0.1:3030');
-```
+When `@feathersjs/tools` is installed globally, `convert-repository` is an internal tool that updates the old Feathers plugin infrastructure that is using Babel to the new one without (see https://github.com/feathersjs/feathers/issues/608 for why and how).
 
 ## License
 
