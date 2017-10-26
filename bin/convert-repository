@@ -13,7 +13,7 @@ if [ -d "src" ]; then
 fi
 
 echo "Running the convert-repo Node script"
-node "$BASEDIR/lib/convert-repo"
+node "$BASEDIR/bin/convert-repo"
 
 echo "Updating .gitignore to latest from plugin generator"
 curl https://raw.githubusercontent.com/feathersjs/generator-feathers-plugin/master/app/templates/__gitignore > .gitignore
