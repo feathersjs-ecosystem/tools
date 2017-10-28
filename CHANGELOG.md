@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.1](https://github.com/feathersjs/tools/tree/v0.1.1) (2017-10-28)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.0...v0.1.1)
+
+**Merged pull requests:**
+
+- Some codemod and upgrade hardening [\#6](https://github.com/feathersjs/tools/pull/6) ([daffl](https://github.com/daffl))
+
 ## [v0.1.0](https://github.com/feathersjs/tools/tree/v0.1.0) (2017-10-26)
 **Closed issues:**
 
