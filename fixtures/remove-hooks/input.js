@@ -19,6 +19,8 @@ const authentication = require('./authentication');
 
 const app = feathers();
 
+feathers().configure(services).configure(hooks()).configure(middleware);
+
 // Load app configuration
 app.configure(configuration(path.join(__dirname, '..')));
 // Enable CORS, security, compression, favicon and body parsing
