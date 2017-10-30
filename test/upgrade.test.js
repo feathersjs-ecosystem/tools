@@ -11,5 +11,24 @@ describe('upgrade', () => {
     it('exports moduleMappings', () =>
       assert.equal(typeof utils.moduleMappings, 'object')
     );
+
+    it('updateDependencies', () => {
+      const pkg = {
+        dependencies: {
+          feathers: '2.0.0',
+          'feathers-hooks': '2.0.0'
+        },
+        devDependencies: {
+          'feathers-socketio': 'test'
+        }
+      };
+
+      assert.deepEqual(utils.updateDependencies(pkg), {
+        pkg,
+        dependencies: [ '@feathersjs/feathers' ],
+        devDependencies: [ '@feathersjs/socketio' ]
+      });
+      assert.ok(!pkg.dependencies['feathers-hooks']);
+    });
   });
 });
