@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.4](https://github.com/feathersjs/tools/tree/v0.1.4) (2017-11-05)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.3...v0.1.4)
+
+**Merged pull requests:**
+
+- Move error handler [\#10](https://github.com/feathersjs/tools/pull/10) ([daffl](https://github.com/daffl))
+
 ## [v0.1.3](https://github.com/feathersjs/tools/tree/v0.1.3) (2017-11-05)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.2...v0.1.3)
 
