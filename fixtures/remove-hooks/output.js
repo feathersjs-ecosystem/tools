@@ -1,3 +1,4 @@
+import feathers from 'feathers';
 const path = require('path');
 const favicon = require('serve-favicon');
 const compress = require('compression');
