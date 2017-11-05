@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.1.3](https://github.com/feathersjs/tools/tree/v0.1.3) (2017-11-05)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.2...v0.1.3)
+
+**Merged pull requests:**
+
+- Also handle import statements [\#9](https://github.com/feathersjs/tools/pull/9) ([daffl](https://github.com/daffl))
+- Update npm-programmatic to the latest version 🚀 [\#8](https://github.com/feathersjs/tools/pull/8) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v0.1.2](https://github.com/feathersjs/tools/tree/v0.1.2) (2017-10-30)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.1...v0.1.2)
 
