@@ -7,3 +7,4 @@ const feathers = require('@feathersjs/feathers');
 const configuration = require('@feathersjs/configuration');
 const rest = require('@feathersjs/express/rest');
 const socketio = require('@feathersjs/socketio');
+const authClient = require('@feathersjs/authentication-client');
