@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.5](https://github.com/feathersjs/tools/tree/v0.1.5) (2017-11-17)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.4...v0.1.5)
+
+**Merged pull requests:**
+
+- Map feathers-authentication-client in upgrade [\#11](https://github.com/feathersjs/tools/pull/11) ([daffl](https://github.com/daffl))
+
 ## [v0.1.4](https://github.com/feathersjs/tools/tree/v0.1.4) (2017-11-05)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.3...v0.1.4)
 
