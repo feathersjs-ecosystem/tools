@@ -7,3 +7,4 @@ const feathers = require('feathers');
 const configuration = require('feathers-configuration');
 const rest = require('feathers-rest');
 const socketio = require('feathers-socketio');
+const authClient = require('feathers-authentication-client');
