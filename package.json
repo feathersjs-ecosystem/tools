@@ -52,7 +52,7 @@
   "dependencies": {
     "@feathersjs/jscodeshift": "^0.5.0",
     "debug": "^3.1.0",
-    "fs-extra": "^4.0.2",
+    "fs-extra": "^5.0.0",
     "npm-programmatic": "0.0.9"
   },
   "devDependencies": {
