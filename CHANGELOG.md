@@ -1,5 +1,13 @@
 # Change Log
 
+## [v0.1.6](https://github.com/feathersjs/tools/tree/v0.1.6) (2017-12-14)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.5...v0.1.6)
+
+**Merged pull requests:**
+
+- Throw an error if someone tries to upgrade twice [\#13](https://github.com/feathersjs/tools/pull/13) ([daffl](https://github.com/daffl))
+- Update fs-extra to the latest version 🚀 [\#12](https://github.com/feathersjs/tools/pull/12) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v0.1.5](https://github.com/feathersjs/tools/tree/v0.1.5) (2017-11-17)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.4...v0.1.5)
 
