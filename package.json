@@ -1,7 +1,7 @@
 {
   "name": "@feathersjs/tools",
   "description": "Codemods and other generator and repository  management tools",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "homepage": "https://github.com/feathersjs/tools",
   "main": "lib/",
   "keywords": [
