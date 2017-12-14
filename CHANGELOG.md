@@ -1,5 +1,8 @@
 # Change Log
 
+## [v0.1.7](https://github.com/feathersjs/tools/tree/v0.1.7) (2017-12-14)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.6...v0.1.7)
+
 ## [v0.1.6](https://github.com/feathersjs/tools/tree/v0.1.6) (2017-12-14)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.5...v0.1.6)
 
