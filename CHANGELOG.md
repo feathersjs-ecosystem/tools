@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.2.2](https://github.com/feathersjs/tools/tree/v0.2.2) (2020-07-08)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.2.1...v0.2.2)
+
+**Merged pull requests:**
+
+- Add TypeScript parser option [\#19](https://github.com/feathersjs/tools/pull/19) ([daffl](https://github.com/daffl))
+
 ## [v0.2.1](https://github.com/feathersjs/tools/tree/v0.2.1) (2020-07-08)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.2.0...v0.2.1)
 
