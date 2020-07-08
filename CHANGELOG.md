@@ -1,5 +1,19 @@
 # Change Log
 
+## [v0.2.1](https://github.com/feathersjs/tools/tree/v0.2.1) (2020-07-08)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.2.0...v0.2.1)
+
+## [v0.2.0](https://github.com/feathersjs/tools/tree/v0.2.0) (2020-07-08)
+[Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.7...v0.2.0)
+
+**Merged pull requests:**
+
+- Update all dependencies and finalize moving to upstream JSCodeshift [\#18](https://github.com/feathersjs/tools/pull/18) ([daffl](https://github.com/daffl))
+- Update fs-extra to the latest version 🚀 [\#17](https://github.com/feathersjs/tools/pull/17) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update mocha to the latest version 🚀 [\#16](https://github.com/feathersjs/tools/pull/16) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update npm-programmatic to the latest version 🚀 [\#15](https://github.com/feathersjs/tools/pull/15) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update semistandard to the latest version 🚀 [\#14](https://github.com/feathersjs/tools/pull/14) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v0.1.7](https://github.com/feathersjs/tools/tree/v0.1.7) (2017-12-14)
 [Full Changelog](https://github.com/feathersjs/tools/compare/v0.1.6...v0.1.7)
 
