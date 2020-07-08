@@ -1,4 +1,4 @@
-const assert = require('assert');
+const { strict: assert } = require('assert');
 const upgrade = require('../lib/upgrade');
 const utils = require('../lib/upgrade/utils');
 
@@ -25,8 +25,8 @@ describe('upgrade', () => {
 
       assert.deepEqual(utils.updateDependencies(pkg), {
         pkg,
-        dependencies: [ '@feathersjs/feathers' ],
-        devDependencies: [ '@feathersjs/socketio' ]
+        dependencies: ['@feathersjs/feathers'],
+        devDependencies: ['@feathersjs/socketio']
       });
       assert.ok(!pkg.dependencies['feathers-hooks']);
     });
