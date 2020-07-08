@@ -1,5 +1,5 @@
 const { strict: assert } = require('assert');
-const j = require('../lib/transform');
+const { ts, transform } = require('../lib');
 
 describe('transforms', () => {
   it('findConfigure', () => {
@@ -12,7 +12,7 @@ describe('transforms', () => {
       app.configure(authentication);
     `;
 
-    const result = j(code).findConfigure('authentication').insertBefore('app.configure(muhkuh);').toSource();
+    const result = transform(code).findConfigure('authentication').insertBefore('app.configure(muhkuh);').toSource();
 
     assert.equal(result, `
       const feathers = require('feathers');
@@ -30,12 +30,28 @@ describe('transforms', () => {
       const a = "test";
       const b = "hi";
     `;
-    const result = j(code).findDeclaration('b').insertBefore('const x = 2;').toSource();
+    const result = transform(code).findDeclaration('b').insertBefore('const x = 2;').toSource();
 
     assert.equal(result, `
       const a = "test";
       const x = 2;
       const b = "hi";
+    `);
+  });
+
+  it('findDeclaration TypeScript', () => {
+    const code = `
+      const a: string = "test";
+      const b: string = "hi";
+    `;
+    const result = transform(code, {
+      parser: ts
+    }).findDeclaration('b').insertBefore('const x = 2;').toSource();
+
+    assert.equal(result, `
+      const a: string = "test";
+      const x = 2;
+      const b: string = "hi";
     `);
   });
 
@@ -48,7 +64,7 @@ describe('transforms', () => {
         }
       }
     `;
-    const result = j(code).insertHook('before', 'create', 'testing').toSource();
+    const result = transform(code).insertHook('before', 'create', 'testing').toSource();
 
     assert.equal(result, `
       module.exports = {
@@ -67,7 +83,7 @@ describe('transforms', () => {
       };
     `;
 
-    const result = j(code).insertLastInFunction('app.use(\'/test\', middleware);').toSource();
+    const result = transform(code).insertLastInFunction('app.use(\'/test\', middleware);').toSource();
 
     assert.equal(result, `
       module.exports = function () {
