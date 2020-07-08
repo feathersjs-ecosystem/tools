@@ -50,9 +50,9 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@feathersjs/jscodeshift": "^0.5.0",
     "debug": "^3.1.0",
     "fs-extra": "^6.0.0",
+    "jscodeshift": "^0.10.0",
     "npm-programmatic": "0.0.10"
   },
   "devDependencies": {

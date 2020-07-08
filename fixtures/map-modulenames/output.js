@@ -1,6 +1,3 @@
-import feathers from '@feathersjs/feathers';
-import configuration from '@feathersjs/configuration';
-
 const client = require('@feathersjs/feathers');
 const restClient = require('@feathersjs/rest-client');
 const feathers = require('@feathersjs/feathers');

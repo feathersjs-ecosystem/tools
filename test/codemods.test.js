@@ -1,6 +1,6 @@
 'use strict';
 
-const jscodeshift = require('@feathersjs/jscodeshift');
+const jscodeshift = require('jscodeshift');
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');

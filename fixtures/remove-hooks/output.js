@@ -1,4 +1,5 @@
 import feathers from 'feathers';
+
 const path = require('path');
 const favicon = require('serve-favicon');
 const compress = require('compression');
@@ -6,7 +7,6 @@ const cors = require('cors');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 
-const feathers = require('feathers');
 const configuration = require('feathers-configuration');
 const rest = require('feathers-rest');
 const socketio = require('feathers-socketio');
