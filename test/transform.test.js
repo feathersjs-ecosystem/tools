@@ -1,4 +1,4 @@
-const assert = require('assert');
+const { strict: assert } = require('assert');
 const j = require('../lib/transform');
 
 describe('transforms', () => {
