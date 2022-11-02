@@ -1,5 +1,7 @@
 # @feathersjs/tools
 
+> __Note:__ `@feathersjs/tools` is no longer used. See https://github.com/feathersjs/feathers for the Feathers CLI.
+
 [![Node.js CI](https://github.com/feathersjs/tools/workflows/Node.js%20CI/badge.svg)](https://github.com/feathersjs/tools/actions?query=workflow%3A%22Node.js+CI%22)
 [![Dependency Status](https://img.shields.io/david/feathersjs/tools.svg?style=flat-square)](https://david-dm.org/feathersjs/tools)
 [![Download Status](https://img.shields.io/npm/dm/@feathersjs/tools.svg?style=flat-square)](https://www.npmjs.com/package/@feathersjs/tools)
